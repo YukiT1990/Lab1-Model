@@ -7,7 +7,7 @@ public class Driver {
         m1.printDetails();
         m1.displayModelDetails();
 
-        Model m2 = new Model("Tiger", "Woods", 72, 190, true, false);
+        Model m2 = new Model("Tiger", "Woods", 72, 190, false, true);
 
         m2.printDetails();
         m2.displayModelDetails();

@@ -269,6 +269,10 @@ public class Model {
         return payRate;
     }
 
+    /**
+     * Displays all the model's information on the screen.
+     * It must invoke(call) methods defined.
+     */
     public void displayModelDetails() {
         System.out.println("Name: " + getFirstName() + " " + getLastName());
         System.out.println("Height: " + getHeightInFeetAndInches());
